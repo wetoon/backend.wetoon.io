@@ -2,7 +2,7 @@
   "name": "wetoon.backend",
   "version": "1.0.50",
   "scripts": {
-    "start": "npx bun run app/index.ts",
+    "start": "npx --no-install bun@latest run app/index.ts",
     "dev": "bun run app/index.ts"
   },
   "dependencies": {
