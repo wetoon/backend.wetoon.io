@@ -9,11 +9,11 @@
     "@elysiajs/cors": "^1.0.2",
     "elysia": "latest",
     "firebase-admin": "^12.0.0",
-    "uuidv7": "^0.6.3",
-    "bun": "^1.0.35"
+    "uuidv7": "^0.6.3"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "bun": "latest"
   },
   "module": "app/index.js",
   "bun-create": {
