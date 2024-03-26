@@ -2,7 +2,7 @@
   "name": "wetoon.backend",
   "version": "1.0.50",
   "scripts": {
-    "start": "bun run app/index.ts",
+    "start": "sudo npx bun run app/index.ts",
     "dev": "bun run app/index.ts"
   },
   "dependencies": {
@@ -12,7 +12,8 @@
     "uuidv7": "^0.6.3"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "bun": "latest"
   },
   "module": "app/index.js",
   "bun-create": {
