@@ -2,18 +2,18 @@
   "name": "wetoon.backend",
   "version": "1.0.50",
   "scripts": {
-    "start": "sudo npx bun run app/index.ts",
-    "dev": "bun run app/index.ts"
+    "start": ".bun/bun run app/index.ts",
+    "dev": "bun run --watch app/index.ts"
   },
   "dependencies": {
     "@elysiajs/cors": "^1.0.2",
     "elysia": "latest",
     "firebase-admin": "^12.0.0",
+    "jsonwebtoken": "^9.0.2",
     "uuidv7": "^0.6.3"
   },
   "devDependencies": {
-    "bun-types": "latest",
-    "bun": "latest"
+    "bun-types": "latest"
   },
   "module": "app/index.js",
   "bun-create": {
